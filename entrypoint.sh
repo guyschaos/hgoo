@@ -1,2 +1,2 @@
 echo "hi"
-caddy -c /etc/Caddyfile
+caddy --conf /etc/Caddyfile
