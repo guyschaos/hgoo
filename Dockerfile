@@ -1,4 +1,4 @@
-FROM abiosoft/caddy
+FROM alpine
 
 ADD caddy /usr/bin/caddy
 ADD Caddyfile /etc/Caddyfile
