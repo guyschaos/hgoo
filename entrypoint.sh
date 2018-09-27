@@ -1,1 +1,2 @@
-caddy -http-port $PORT -https-port $PORT 
+echo "hi"
+caddy -c /etc/Caddyfile
