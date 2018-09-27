@@ -1,0 +1,14 @@
+{
+  "name": "hgoo",
+  "description": "App for hg",
+  "keywords": ["hgoo"],
+  "env": {
+    "CADDYCONFIG": {
+       "description": "More config for caddy",
+       "value": ""
+     }
+  },
+  "website": "https://github.com/guyschaos/hgoo",
+  "repository": "https://github.com/guyschaos/hgoo",
+  "stack": "container"
+ }
