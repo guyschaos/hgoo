@@ -1,4 +1,6 @@
 :{$PORT}
+basicauth / {$YOURNAME} {$YOURPSW}
+root /
 browse
 log stdout
 errors stdout

@@ -3,10 +3,14 @@
   "description": "App for hg",
   "keywords": ["hgoo"],
   "env": {
-    "CADDYCONFIG": {
-       "description": "More config for caddy",
-       "value": ""
-     }
+    "YOURNAME": {
+       "description": "Tell me who you are",
+       "value": "hello"
+     },
+     "YOURPSW": {
+      "description": "Set your password",
+      "value": "world"
+    }
   },
   "website": "https://github.com/guyschaos/hgoo",
   "repository": "https://github.com/guyschaos/hgoo",
