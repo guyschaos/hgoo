@@ -1,3 +1,7 @@
 :{$PORT}
 log stdout
 errors stdout
+
+forwardproxy {
+        basicauth       {$YOURNAME}      {$YOURPSW}
+}
